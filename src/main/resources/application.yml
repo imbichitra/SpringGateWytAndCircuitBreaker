@@ -1,0 +1,19 @@
+server:
+  port: 9090
+
+#spring:
+#  cloud:
+#    gateway:
+#      routes:
+#        - id: exchange
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/exchange/**
+#        - id: entity
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/entity/**
+#        - id: object
+#          uri: http://localhost:8080
+#          predicates:
+#            - Path=/object/**
