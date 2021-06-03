@@ -17,3 +17,8 @@ server:
 #          uri: http://localhost:8080
 #          predicates:
 #            - Path=/object/**
+#          filters:
+#            - name: CircuitBreaker
+#              args:
+#                name: Object-arg
+#                fallbackUri: /defaultFallback
